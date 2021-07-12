@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Al Harmain School System"/>
+    <Property name="maximizedBounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[50, 50, 600, 900]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 900]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="99" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel3" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="jPanel3" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="jTextField2" min="-2" pref="67" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jTextField17" min="-2" pref="314" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField18" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextField19" min="-2" pref="66" max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel14" min="-2" pref="251" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jSeparator2" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="Bt_At_Reset" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="172" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jXDatePicker3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jXDatePicker3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="387" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Bt_At_Reset" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSeparator2" min="-2" pref="10" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jTextField17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Enter Roll no"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField2">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Name"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Present"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel13">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Absenties"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField17">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField18">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField18ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField19">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value=" Usama Arshad contact 03482184556"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel15">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Copy rights Reserved"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Trebuchet MS" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="search"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSeparator" name="jSeparator2">
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="cc" green="ff" red="cc" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="jPanel5">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="66" green="cc" red="ff" type="rgb"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name8" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p8" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a8" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name9" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a9" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name10" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a10" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name11" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p11" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a11" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name12" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p12" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a12" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name13" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p13" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a13" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name14" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p14" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a14" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name15" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p15" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a15" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name16" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p16" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a16" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name17" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p17" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a17" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name18" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p18" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a18" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name2" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name3" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name4" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a4" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name5" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p5" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a5" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name6" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a6" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="Tf_At_name7" min="-2" pref="285" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_p7" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a7" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="Tf_At_name30" min="-2" pref="285" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                              <Component id="Bt_At_p30" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="Bt_At_a30" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="Tf_At_name1" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name19" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name20" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name21" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name22" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name23" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name24" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name25" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name26" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name27" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name28" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                                  <Component id="Tf_At_name29" alignment="0" min="-2" pref="285" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p29" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a29" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p28" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a28" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p27" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a27" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p26" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a26" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p25" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a25" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p24" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a24" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p23" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a23" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p22" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a22" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p19" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_a19" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <Component id="Bt_At_p1" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="Bt_At_A1" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="Bt_At_p20" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Bt_At_p21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="Bt_At_a20" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="Bt_At_a21" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_A1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Tf_At_name19" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                          <Component id="Bt_At_p19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Bt_At_a19" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Tf_At_name30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_p30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Bt_At_a30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name1">
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JTextField()"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p1">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Bt_At_p1ActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_A1">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name19">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name20">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name21">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name22">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name23">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name24">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name25">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name26">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name27">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name28">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name29">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p19">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p20">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p21">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p22">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p23">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p24">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p25">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p26">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p27">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p28">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p29">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a19">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a20">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a21">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a22">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a23">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a24">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a25">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a26">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a27">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a28">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a29">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name8">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p8">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a8">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name9">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p9">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a9">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name10">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p10">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a10">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name11">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p11">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a11">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name12">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p12">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a12">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name13">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p13">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a13">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name14">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p14">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a14">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name15">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p15">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a15">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name16">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p16">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a16">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name17">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p17">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a17">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name18">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p18">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a18">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name2">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p2">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a2">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name3">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p3">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a3">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name4">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p4">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a4">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name5">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p5">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a5">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name6">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p6">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a6">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name7">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p7">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a7">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Tf_At_name30">
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_p30">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Present"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="Bt_At_a30">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Absent"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JButton" name="jButton1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Trebuchet MS" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Save"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="Bt_At_Reset">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Trebuchet MS" size="12" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Reset"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Bt_At_ResetActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="jComboBox1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="10">
+                        <StringItem index="0" value="1"/>
+                        <StringItem index="1" value="2"/>
+                        <StringItem index="2" value="3"/>
+                        <StringItem index="3" value="4"/>
+                        <StringItem index="4" value="5"/>
+                        <StringItem index="5" value="6"/>
+                        <StringItem index="6" value="7"/>
+                        <StringItem index="7" value="8"/>
+                        <StringItem index="8" value="9"/>
+                        <StringItem index="9" value="10"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Select Class"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Names"/>
+                  </Properties>
+                </Component>
+                <Component class="org.jdesktop.swingx.JXDatePicker" name="jXDatePicker3">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Select Date"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="99" red="0" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="188" max="-2" attributes="0"/>
+                          <EmptySpace pref="33" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="34" max="-2" attributes="0"/>
+                          <EmptySpace pref="32" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Sylfaen" size="36" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Attendance"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="btnBack">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="cc" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&lt;=Back"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
